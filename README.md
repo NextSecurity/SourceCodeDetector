@@ -3,7 +3,7 @@
 
 ![Guesslang](docs/_static/images/guesslang-small.png)
 
-Guesslang detects the programming language of a given source code:
+Source code detector detects the programming language of a given source code:
 
 ```bash
 echo '

@@ -1,4 +1,4 @@
-# Guesslang [![Build Status](https://travis-ci.org/yoeo/guesslang.svg?branch=master)](https://travis-ci.org/yoeo/guesslang) [![Documentation Status](https://readthedocs.org/projects/guesslang/badge/?version=latest)](http://guesslang.readthedocs.io/en/latest/?badge=latest)
+# SourceCodeDetector [![Build Status](https://travis-ci.org/yoeo/guesslang.svg?branch=master)](https://travis-ci.org/yoeo/guesslang) [![Documentation Status](https://readthedocs.org/projects/guesslang/badge/?version=latest)](http://guesslang.readthedocs.io/en/latest/?badge=latest)
 
 
 ![Guesslang](docs/_static/images/guesslang-small.png)
@@ -67,18 +67,6 @@ that pretty pastes source code.
 
 * Python 3.6+ is required
 
-* Install the latest stable version:
-
-```bash
-pip3 install guesslang
-```
-
-* or install Guesslang from source code:
-
-```bash
-pip3 install .
-```
-
 * Windows specific
 
 To run [Tensorflow](https://github.com/tensorflow/tensorflow)
@@ -146,11 +134,6 @@ if __name__ == '__main__':
 # ...
 ```
 
-## Guesslang Python package
-
-* Guesslang can be used as a Python package.
-  [Package documentation available here](https://guesslang.readthedocs.io/en/latest/guesslang.html)
-
 ``` python
 
 from guesslang import Guess
@@ -174,21 +157,10 @@ name = guess.language_name("""
 print(name)  # ⟶ Erlang
 ```
 
-## License and credits
+* Source code training dataset created with
+  [SourceCodeTraining](https://github.com/NextSecurity/SourceCodeTraining)
 
-* [Guesslang documentation](https://guesslang.readthedocs.io/en/latest/)
-
-* Gesslang training dataset created with
-  [GuesslangTools](https://github.com/yoeo/guesslangtools)
-
-* Guesslang developped with [Tensorflow](https://www.tensorflow.org/)
-
-* Guesslang icon created with
-  [AndroidAssetStudio](https://github.com/romannurik/AndroidAssetStudio)
-  and
-  [Eduardo Tunni's Warnes font](https://fonts.google.com/specimen/Warnes)
+* Developed with [Tensorflow](https://www.tensorflow.org/)
 
 * Example source codes used here retrieved from
   [Rosetta Code](https://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
-
-* Guesslang — Copyright (c) 2020 Y. SOMDA, [MIT License](LICENSE)
